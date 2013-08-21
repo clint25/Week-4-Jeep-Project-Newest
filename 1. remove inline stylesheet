@@ -1,0 +1,12 @@
+1. remove inline stylesheet
+2. Make the footer an include
+3. Includes need to be in a subdirectory
+4. Use unstyled class on footer lists
+5. align jeep logo in header with footer columns
+6. nav dropdown with vehicle list
+
+
+
+WRANGLER FEATURE
+1. add positioning to container so that children are contained correctly
+2. Wrangler hero image should be a background image.  

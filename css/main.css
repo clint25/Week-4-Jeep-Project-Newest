@@ -23,6 +23,8 @@ h3 { color: #fff; text-transform: uppercase; font-size: 1em;}
 
 body {
 	background-color: #000;
+	padding-top: 60px;
+	padding-bottom: 40px;
 }
 
 .navbar .nav>li>a:hover {
@@ -43,7 +45,11 @@ body {
 }
 
 .tag {
+	background-image: url(../img/sprite_nav.png);
 	position: absolute;
+	background-position: 368px -375px;
+	width: 65px;
+	height: 95px;
 	right: 15%;
 
 }
@@ -124,26 +130,34 @@ footer p {
 	Wrangler/Vehicles Page
 ===============================================================================================*/
 
-.wrangler-hero-image {
-	-webkit-transform: scale(1.4);
-	margin-top: 8%;
-	margin-bottom: 9.5%;
+#vehicles-page {
+	background:  #000 url(../img/wrangler/wrangler-main.jpg) no-repeat;
+	background-position: center 60px;
+	position: relative;
+	height: 400px;
+
 }
 
-.wrangler-hero-unit h1 {
+.wrangler-hero-unit {
+	height: 480px;
+}
+
+.wrangler-hero-unit  h1 {
 	font-size: 3em;
 	font-style: italic;
 	letter-spacing: 2px;
 	color: #fff;
 	width: 80%;
 	line-height: 1em;
-	text-shadow: 2px 2px 5px #000 }
+	text-shadow: 2px 2px 5px #000;
 }
 
-.wrangler-info-box > h4 {
-	color: red;
+.wrangler-info-box  h4 {
+	color: #fff;
 	text-transform: uppercase;
+	font-style: italic;
 	font-size: 1em;
+	text-shadow: 2px 2px 5px #000;
 }
 
 .wrangler-info-box {
@@ -154,15 +168,15 @@ footer p {
 
 .interactive-box-wrangler {
 	position: absolute;
-	top: 38%;
-	left: 12.6%;
+	top: 44%;
+	left: 10%;
 	padding: 10px 20px;
 	width: 19%;
 	border-radius: 5px;
 	background-color: rgba(0,0,0,.5);
 }
 
-.interactive-box-wrangler p {
+.interactive-box-wrangler  p {
 	color: #fff;
 	line-height: 1.8em;
 }
@@ -192,6 +206,7 @@ footer p {
 }
 
 .main-content {
+	position: relative;
 	background-color: #fff;
 	width: 75.3%;
 	border-top-left-radius: 5px;
@@ -217,8 +232,8 @@ footer p {
 
 .promo-header-image {
 	position: absolute;
-	right: 15%;
-	top: 97%;
+	right: 5%;
+	top: 4%;
 }
 
 .awards-image {
@@ -228,8 +243,8 @@ footer p {
 
 .trophy-badge {
 	position: absolute;
-	top: 126%;
-	left: 30%;
+	top: 60%;
+	left: 20%;
 }
 
 
