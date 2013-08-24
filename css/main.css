@@ -278,10 +278,12 @@ footer p {
 	top: 7px;
 }
 
-.color-picker-background {
+.color-picker-unit {
 	position: relative;
-	/*width: 100%;
-	height: auto;*/
+	background-image: url(../img/wrangler/colorizer/black_no_top.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 450px;
 }
 
 #black-wrangler {
@@ -304,18 +306,19 @@ footer p {
 	background-position: 393px -380px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
+	/*top: 823px;*/
+	top: 391px;
 	left: 41px;
 }
 
 .green-paint {
 	background-image: url(../img/wrangler/colorizer/sprite_colorizer.png);
 	position: absolute;
-	background-position: 743px -422px;
+	background-position: 746px -419px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 87px;
+	top: 389px;
+	left: 83px;
 }
 
 .white-paint {
@@ -324,18 +327,18 @@ footer p {
 	background-position: 1059px -422px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 130px;
+	top: 391px;
+	left: 127px;
 }
 
 .silver-paint {
 	background-image: url(../img/wrangler/colorizer/sprite_colorizer.png);
 	position: absolute;
-	background-position: 1409px -422px;
+	background-position: 1411px -422px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 177px;
+	top: 391px;
+	left: 171px;
 }
 
 .navy-paint {
@@ -344,8 +347,8 @@ footer p {
 	background-position: 1764px -422px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 221px;
+	top: 391px;
+	left: 214px;
 }
 
 .tan-paint {
@@ -354,8 +357,8 @@ footer p {
 	background-position: 2118px -421px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 266px;
+	top: 392px;
+	left: 257px;
 }
 
 .red-paint {
@@ -364,8 +367,8 @@ footer p {
 	background-position: 2470px -421px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 311px;
+	top: 392px;
+	left: 300px;
 }
 
 .brown-paint {
@@ -374,8 +377,8 @@ footer p {
 	background-position: 2822px -421px;
 	width: 40px;
 	height: 40px;
-	top: 823px;
-	left: 357px;
+	top: 392px;
+	left: 343px;
 }
 
 
