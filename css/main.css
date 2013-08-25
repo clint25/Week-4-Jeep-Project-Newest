@@ -278,15 +278,13 @@ footer p {
 	top: 7px;
 }
 
-/*.color-picker-unit {
+.color-picker-unit {
+	position: relative;
 	width: 100%;
 	height: 450px;
-}*/
+}
 
-.carousel-inner {
-	/*position: relative;*/
-	/*background-image: url(../img/wrangler/colorizer/black_no_top.jpg);*/
-	/*background-size: cover;*/
+.wrangler-carousel-inner {
 	width: 100%;
 	height: 450px;
 }
